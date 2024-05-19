@@ -6,6 +6,14 @@ This is a guide to help you on how you can implement AWS S3 bucket to store imag
 </br>
 _This guide assumes that you understand how to create S3 Bucket & IAM in AWS & know how to set up MySQL database._
 
+Table of content:
+* [Initial Setup after clone](#initial-setup-after-clone)
+* [Setting Up MySQL Connection in NodeJS](setting-up-mysql-connection-in-nodejs)
+* [Add Upload Feature](add-upload-feature)
+* [Retrieving our image from S3](#retrieving-our-image-from-s3)
+* [Delete Obejct in S3](#delete-obejct-in-s3)
+* [Summary](#summary)
+
 
 ## Initial Setup after clone
 Install all the dependencies needed at the start
@@ -450,7 +458,7 @@ Lastly we will prepare our data before sending out our response
     res.status(200).send(resBody);
 ```
 We will store all our data in `resBody` and setting our response header `Content-Type` to the content type of our image to allow the client to know what is the image type. Lastly we sent the response body to the client.
-## Final Code for Retrieveing image from S3 in `index.js`
+### Final Code for Retrieveing image from S3 in `index.js`
 ``` javascript
 import express from 'express';
 import dotenv from 'dotenv';
@@ -600,7 +608,7 @@ sequelize.authenticate().then(() => {
 ```
 
 
-##Delete Obejct in S3
+## Delete Obejct in S3
 We will be deleting our image from our S3 bucket and our record in MySQL. The codes are largely the same as `GetObjectCommand`, where the only difference is that we uses `DeleteObjectCommand` to delete our image from S3 and `Image.destroy()` to delete our record from MySQL.
 ``` javascript
 app.post('/delete', async (req, res) => {
@@ -644,7 +652,7 @@ app.post('/delete', async (req, res) => {
 });
 ```
 
-## Final Code for Deleting Image in `index.js`
+### Final Code for Deleting Image in `index.js`
 ``` javascript
 import express from 'express';
 import dotenv from 'dotenv';
