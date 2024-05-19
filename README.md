@@ -63,10 +63,8 @@ DB_PWD = #DB Password
 DB_NAME = #DB Name
 ```
 
-Add in all the connection details of your db to allow Sequelize to connect to your DB 
-</br>
-In `index.js`, edit these lines of code
-</br>
+Add in all the connection details of your db to allow Sequelize to connect to your DB \
+In `index.js`, edit these lines of code \
 Remove:
 </br>
 <strike>
@@ -90,7 +88,7 @@ sequelize.authenticate().then(() => {
 ```
 ### Create an Entity
 
-In `models` folder, create a new file call `Images.js` \ 
+In `models` folder, create a new file call `Images.js` 
 </br>
 Add these into `Images.js`
 ``` javascript
