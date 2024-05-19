@@ -88,7 +88,7 @@ sequelize.authenticate().then(() => {
     console.log('Error connecting to the database', error);
 })
 ```
-### S
+### Create an Entity
 
 In `models` folder, create a new file call `Images.js` \ 
 </br>
