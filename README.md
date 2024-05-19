@@ -5,6 +5,13 @@ This is a guide to help you on how you can implement AWS S3 bucket to store imag
 </br>
 </br>
 _This guide assumes that you understand how to create S3 Bucket & IAM in AWS & know how to set up MySQL database._
+</br>
+</br>
+</br>
+Quick Guide:
+* [How to use PutObjectCommand](../../wiki/How-to-use-PutObjectCommand)
+* [How to use GetObjectCommand](../../wiki/How-to-use-GetObjectCommand)
+* [How to use DeleteObjectCommand](../../wiki/How-to-use-DeleteObjectCommand)
 
 Table of content:
 * [Initial Setup after clone](#initial-setup-after-clone)
