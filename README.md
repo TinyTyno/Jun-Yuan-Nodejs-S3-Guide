@@ -52,7 +52,7 @@ sequelize.sync().then(() => {
 export default sequelize;
 ```
 This creates a Sequelize instance which will be able to connect to your MySQL Server. 
-
+</br>
 In `.env` file, add these
 ```
 #MYSQL
@@ -63,8 +63,8 @@ DB_PWD = #DB Password
 DB_NAME = #DB Name
 ```
 
-Add in all the connection details of your db to allow Sequelize to connect to your DB \
-
+Add in all the connection details of your db to allow Sequelize to connect to your DB 
+</br>
 In `index.js`, edit these lines of code 
 </br>
 Remove:
@@ -92,7 +92,7 @@ sequelize.authenticate().then(() => {
 ### Creating an Entity in MySQL
 
 In `models` folder, create a new file call `Images.js` \ 
-\ 
+</br>
 Add these into `Images.js`
 ``` javascript
 import { DataTypes } from "sequelize";
