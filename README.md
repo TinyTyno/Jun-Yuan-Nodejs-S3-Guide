@@ -19,9 +19,8 @@ npm i mysql12 sequelize
 ```
 
 `mysql12` is a MySQL client for Node.js with focus on performance \
-`sequelize` is an easy-to-use and promise-based Object-Relational Mapping (ORM) tool for MySQL and other databases.
-\
-\
+`sequelize` is an easy-to-use and promise-based Object-Relational Mapping (ORM) tool for MySQL and other databases. \
+
 ### Setting Up a Sequelize Instance
 Create folder `models` in `Server` folder \
 Create file `db.js` in  `models` folder
@@ -66,6 +65,7 @@ DB_NAME = #DB Name
 Add in all the connection details of your db to allow Sequelize to connect to your DB \
 
 In `index.js`, edit these lines of code \
+Remove:
 <strike>
 ``` javascript
 app.listen(port, () => {
@@ -73,7 +73,8 @@ app.listen(port, () => {
 });
 ```
 </strike>
-\
+
+Add:
 ``` javascript
 sequelize.authenticate().then(() => {
     console.log('Connected to the database');
@@ -84,7 +85,6 @@ sequelize.authenticate().then(() => {
     console.log('Error connecting to the database', error);
 })
 ```
-\
 \
 ### Creating an Entity in MySQL
 
