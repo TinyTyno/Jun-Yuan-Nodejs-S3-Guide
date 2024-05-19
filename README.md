@@ -19,11 +19,11 @@ npm i mysql12 sequelize
 ```
 
 `mysql12` is a MySQL client for Node.js with focus on performance
-`sequelize` is an easy-to-use and promise-based Object-Relational Mapping (ORM) tool for MySQL and other databases.
+\ `sequelize` is an easy-to-use and promise-based Object-Relational Mapping (ORM) tool for MySQL and other databases.
 
 
 Create folder `models` in `Server` folder
-Create file `db.js` in  `models` folder
+\ Create file `db.js` in  `models` folder
 
 In `db.js`, add these codes inside
 ``` javascript
