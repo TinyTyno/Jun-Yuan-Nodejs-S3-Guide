@@ -15,8 +15,8 @@ Quick Guide:
 
 Table of content:
 * [Initial Setup after clone](#initial-setup-after-clone)
-* [Setting Up MySQL Connection in NodeJS](setting-up-mysql-connection-in-nodejs)
-* [Add Upload Feature](add-upload-feature)
+* [Setting Up MySQL Connection in NodeJS](#setting-up-mysql-connection-in-nodejs)
+* [Add Upload Feature](#add-upload-feature)
 * [Retrieving our image from S3](#retrieving-our-image-from-s3)
 * [Delete Obejct in S3](#delete-obejct-in-s3)
 * [Summary](#summary)
