@@ -65,7 +65,7 @@ DB_NAME = #DB Name
 
 Add in all the connection details of your db to allow Sequelize to connect to your DB 
 </br>
-In `index.js`, edit these lines of code 
+In `index.js`, edit these lines of code
 </br>
 Remove:
 </br>
@@ -88,8 +88,6 @@ sequelize.authenticate().then(() => {
     console.log('Error connecting to the database', error);
 })
 ```
-</br>
-</br>
 ### S
 
 In `models` folder, create a new file call `Images.js` \ 
