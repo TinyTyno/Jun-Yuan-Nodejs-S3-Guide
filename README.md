@@ -68,6 +68,7 @@ Add in all the connection details of your db to allow Sequelize to connect to yo
 In `index.js`, edit these lines of code 
 </br>
 Remove:
+</br>
 <strike>
 ``` javascript
 app.listen(port, () => {
@@ -89,7 +90,7 @@ sequelize.authenticate().then(() => {
 ```
 </br>
 </br>
-### Creating an Entity in MySQL
+### S
 
 In `models` folder, create a new file call `Images.js` \ 
 </br>
