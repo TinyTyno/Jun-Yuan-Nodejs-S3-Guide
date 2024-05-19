@@ -4,7 +4,7 @@ This is a guide to help you on how you can implement AWS S3 bucket to store imag
 </br>
 </br>
 </br>
-_This guide assumes that you understand how to create S3 Bucket & IAM in AWS, know how to set up MySQL database and the basics of NodeJS.
+_This guide assumes that you understand how to create S3 Bucket & IAM in AWS, know how to set up MySQL database and the basics of NodeJS._
 <br>
 </br>
 </br>
